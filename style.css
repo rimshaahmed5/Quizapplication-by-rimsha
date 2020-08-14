@@ -1,0 +1,74 @@
+body{
+    background-color: #4b579c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font: size 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+h3{
+    font-size: 20px;
+    color: white;
+    margin-left: 15px;
+}
+#quiz{
+    margin-top: 20px;
+    margin-left: 15px;
+    background-color: #7a87ce;
+    padding: 10px 20px 10px 20px;
+    width: 400px;
+    border-radius: 20px;
+    float: left;
+    color: #07124e;
+}
+input{
+    margin-bottom: 20px;
+    color:#23317e ;
+}
+
+#textbox{
+height: 25px;
+font-size: 16px;
+border-radius: 5px;
+padding-left: 5px;
+}
+#button{
+    background-color:green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    border:  1px solid white;
+    padding: 10px;
+    font-size: 16px;
+    transition-duration: .5s;
+    margin-top: 15px;
+}
+#button:hover{
+    background-color: red;
+    border:  1px solid green;
+    color: white;
+    cursor: pointer;
+    
+}
+#after_submit{
+    visibility: hidden;
+    background-color:#e7f16f;
+    margin-left: 15px;
+    padding: 10px 20px 10px 20px;
+    width: 400px;
+    border-radius: 20px;
+    float: left;
+    margin: 20px;
+    font-size: 30px;
+    color:red;
+
+}
+#picture{
+    width: 373px;
+    height: 245px;
+    background-color: none;
+}
